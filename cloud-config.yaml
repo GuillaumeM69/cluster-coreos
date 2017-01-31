@@ -1,4 +1,5 @@
 #cloud-config
+#https://goo.gl/l7br8P
 coreos:
   etcd2:
     # generate a new token for each unique cluster from https://discovery.etcd.io/new?size=3
