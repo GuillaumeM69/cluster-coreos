@@ -1,0 +1,10 @@
+#cloud-config
+users:
+  - name: "core"
+    passwd: "$1$VN4eM2l8$chUy9jacF1Uupk.RePahh."
+    groups:
+      - "sudo"
+      - "docker"
+    ssh-authorized-keys:
+      - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDFaIocmziJhl7pNS3eIY40C8/MsCOirYeYi/1gpbj3f+JIyVLmEWWkRWzWUiAANclFEKuGQ5eX7Ugam5PwuIuvNsL4ecFakDPX82fiMHnh+c4Q0ZqlMwL0FgbaZFy407Ewo97HvLuqHTYlWrExhaB1Bdgp2P1QbAwzkP6xOvMZ9PX1DSE6Wc8N+Ai2ukj85ZVka5MlKuswJTgWGAsTZtycfrMHzs2KyBl59KBmNQQI35vVdc2BDAwUI2cQG0NkYic8sSt/LriIgKg0vus2ImqZzNQh7ALruocq3n7ZF6QHKEFibBkp4xx/wtGvutWI1ysqvxZTsnnLEmZrgL+1MsAH core"
+      - "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAhgpqHP+/DvofidgD5B6Nw0dmXDR6pH6BEry+FDXZV2m6NUu4StwHKDJbloZ1cfJc/2lsya1VTLQoZ4196tCo9W2+/NjLo1YUFfc2oBHAS9Z3N9k4ztzhatMZBxVktVCRxAnonFmnI/8MTBfRLdJXkn5bcYZme7d1eDHMxa+JIacgUossdgMlndGjx3Accl09Yh6fyqjqQ2lag4qlxd0OhNgCPZ1f1vCqxd2Ilbpx+eQ1Zdvu3WgDYLUcYVXJWHCGsrfwEJ7iY7X+lzt+rbDBH54Tc0MZtnkZakEeDk25qhPO4tH6L6hoiJQ1n/DfFMgNn4UltPgtTHADZqG09khPGw== core"
