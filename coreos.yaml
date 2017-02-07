@@ -1,4 +1,6 @@
 #cloud-config
+hostname: "core01"
+manage_etc_hosts: "localhost
 users:
   - name: "core"
     passwd: "$1$VN4eM2l8$chUy9jacF1Uupk.RePahh."
